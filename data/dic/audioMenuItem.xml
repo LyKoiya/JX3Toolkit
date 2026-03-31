@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="gb18030"?>
+<audioMenu>
+	<站位走位>站位走位
+		<ChengShang_P VoiceText="都来准备承伤">准备承伤</ChengShang_P>
+		<BaoTuan_P VoiceText="准备抱团啦">准备抱团</BaoTuan_P>
+		<FenSan_P VoiceText="准备分散呀">准备分散</FenSan_P>
+		<YiDong_P VoiceText="准备移动">准备移动</YiDong_P>
+		<YuanDiBuDong_P VoiceText="准备原地停留">准备原地不动</YuanDiBuDong_P>
+		<BeiDui_P VoiceText="准备背对">准备背对</BeiDui_P>
+		<YinDao_P VoiceText="准备引导">准备引导</YinDao_P>
+		<YuanLiBoss VoiceText="快远离boss">远离boss</YuanLiBoss>
+		<BossLaZou VoiceText="把boss拉走">Boss拉走</BossLaZou>
+		<XiaoGuaiLaZou VoiceText="把小怪拉走">小怪拉走</XiaoGuaiLaZou>
+		<ChengShang_T VoiceText="一起抱团承伤">承伤抱团</ChengShang_T>
+		<BaoTuan_T_sp VoiceText="找T抱团">找T抱团</BaoTuan_T_sp>
+		<BaoTuan_T_sp2 VoiceText="人群抱团">人群抱团</BaoTuan_T_sp2>
+		<BaoTuan_T_s VoiceText="点名玩家抱团">点名抱团</BaoTuan_T_s>
+		<BaoTuan_T_sp3 VoiceText="boss脚下抱团">boss脚下抱团</BaoTuan_T_sp3>
+		<BaoTuan_T_sp4 VoiceText="npc脚下抱团">npc脚下抱团</BaoTuan_T_sp4>
+		<FenSan_T VoiceText="保持分散 散开">保持分散</FenSan_T>
+		<YiDong_T VoiceText="保持移动 别停">保持移动</YiDong_T>
+		<YuanDiBuDong_T VoiceText="站原地别动">别动</YuanDiBuDong_T>
+		<BeiDui_T VoiceText="面向背对boss">背对boss</BeiDui_T>
+		<YinDao_T VoiceText="注意准备引导">注意引导</YinDao_T>
+		<YinDao_T_s VoiceText="点名玩家引导">点名引导</YinDao_T_s>
+	</站位走位>
+	<点名>点名
+		<DianMing_P VoiceText="准备点名">准备点名</DianMing_P>
+		<DianMing_T_sp VoiceText="远离点名玩家">远离点名</DianMing_T_sp>
+		<DianMing_T_sp2 VoiceText="点名玩家出人群">点名出人群</DianMing_T_sp2>
+		<DianMing_T_sp3 VoiceText="点名玩家多好技能">点名躲技能</DianMing_T_sp3>
+		<DianMing_T_sp4 VoiceText="点名玩家前往指定点">点名上点</DianMing_T_sp4>
+		<DianMing_T_sp5 VoiceText="点名玩家原地别动">点名不动</DianMing_T_sp5>
+		<DianMing_T_sp6 VoiceText="点名玩家遛怪">点名遛怪</DianMing_T_sp6>
+	</点名>
+	<技能释放>技能释放
+		<QuSan_P VoiceText="准备驱散">准备驱散</QuSan_P>
+		<JianShang_P VoiceText="准备开减伤">准备减伤</JianShang_P>
+		<KongGuai_P VoiceText="准备控怪">准备控怪</KongGuai_P>
+		<DaDuan_P VoiceText="准备打断">准备打断</DaDuan_P>
+		<LianXuDaDuan_P VoiceText="准备连续打断">准备连续打断</LianXuDaDuan_P>
+		<TaiXie_P VoiceText="治疗准备抬血">准备抬血</TaiXie_P>
+		<DuanDuTiao_P VoiceText="准备断读条">准备断读条</DuanDuTiao_P>
+		<QuSan_T_sp VoiceText="快驱散T">驱散T</QuSan_T_sp>
+		<QuSan_T_sp2 VoiceText="驱散点名玩家">驱散点名</QuSan_T_sp2>
+		<QuSan_T_sp3 VoiceText="驱散boss">驱散boss</QuSan_T_sp3>
+		<QuSan_T_sp4 VoiceText="驱散Npc">驱散npc</QuSan_T_sp4>
+		<JianShang_T VoiceText="快开减伤！">快开减伤</JianShang_T>
+		<JianShang_T_s VoiceText="给被点玩家减伤！">给点名减伤</JianShang_T_s>
+		<KongGuai_T VoiceText="注意控制目标">注意控怪</KongGuai_T>
+		<DaDuan_T VoiceText="快打断！">打断！</DaDuan_T>
+		<LianXuDaDuan_T VoiceText="准备继续打断">打断注意接断</LianXuDaDuan_T>
+		<TaiXie_T VoiceText="注意团血">注意团血</TaiXie_T>
+		<TaiXie_T_s VoiceText="给点名玩家大加！">点名给大加</TaiXie_T_s>
+		<DuanDuTiao_T VoiceText="断读条，别用读条技能">别用读条技能</DuanDuTiao_T>
+	</技能释放>
+	<目标>目标
+		<ZhuanHuo_P VoiceText="准备转火">准备转火</ZhuanHuo_P>
+		<TingShou_P VoiceText="准备停手">准备停手</TingShou_P>
+		<TingNai_P VoiceText="治疗准备停奶">准备停奶</TingNai_P>
+		<HuanChou_P VoiceText="T准备换仇">准备换仇</HuanChou_P>
+		<TingShou_T VoiceText="DPS停手!">停手别打了</TingShou_T>
+		<TingNai_T VoiceText="治疗停手!">治疗停手</TingNai_T>
+		<HuanChou_T VoiceText="T注意换仇">注意换仇</HuanChou_T>
+	</目标>
+	<其它>其它
+		<ZhuanJieDuan VoiceText="准备转阶段">准备转阶段</ZhuanJieDuan>
+		<QTE VoiceText="准备QTE">准备QTE</QTE>
+		<ShiYongDaoJu VoiceText="使用特殊道具">使用道具</ShiYongDaoJu>
+		<ShiYongTeShuJiNeng VoiceText="使用特殊技能">使用特殊技能</ShiYongTeShuJiNeng>
+	</其它>
+	<转火>转火
+		<ZhuanHuo_T_BY VoiceText="转火白云">转火白云</ZhuanHuo_T_BY>
+		<ZhuanHuo_T_XJ VoiceText="转火小剑">转火小剑</ZhuanHuo_T_XJ>
+		<ZhuanHuo_T_FT VoiceText="转火斧头">转火斧头</ZhuanHuo_T_FT>
+		<ZhuanHuo_T_GZ VoiceText="转火钩子">转火钩子</ZhuanHuo_T_GZ>
+		<ZhuanHuo_T_HG VoiceText="转火红鼓">转火红鼓</ZhuanHuo_T_HG>
+		<ZhuanHuo_T_JD VoiceText="转火剪刀">转火剪刀</ZhuanHuo_T_JD>
+		<ZhuanHuo_T_BCh VoiceText="转火棒槌">转火棒槌</ZhuanHuo_T_BCh>
+		<ZhuanHuo_T_RY VoiceText="转火如意">转火如意</ZhuanHuo_T_RY>
+		<ZhuanHuo_T_FB VoiceText="转火飞镖">转火飞镖</ZhuanHuo_T_FB>
+		<ZhuanHuo_T_ShZ VoiceText="转火扇子">转火扇子</ZhuanHuo_T_ShZ>
+		<ZhuanHuo_T_BY_sp VoiceText="近战转火白云">近战转火白云</ZhuanHuo_T_BY_sp>
+		<ZhuanHuo_T_XJ_sp VoiceText="近战转火小剑">近战转火小剑</ZhuanHuo_T_XJ_sp>
+		<ZhuanHuo_T_FT_sp VoiceText="近战转火斧头">近战转火斧头</ZhuanHuo_T_FT_sp>
+		<ZhuanHuo_T_GZ_sp VoiceText="近战转火钩子">近战转火钩子</ZhuanHuo_T_GZ_sp>
+		<ZhuanHuo_T_HG_sp VoiceText="近战转火红鼓">近战转火红鼓</ZhuanHuo_T_HG_sp>
+		<ZhuanHuo_T_JD_sp VoiceText="近战转火剪刀">近战转火剪刀</ZhuanHuo_T_JD_sp>
+		<ZhuanHuo_T_BCh_sp VoiceText="近战转火棒槌">近战转火棒槌</ZhuanHuo_T_BCh_sp>
+		<ZhuanHuo_T_RY_sp VoiceText="近战转火如意">近战转火如意</ZhuanHuo_T_RY_sp>
+		<ZhuanHuo_T_FB_sp VoiceText="近战转火飞镖">近战转火飞镖</ZhuanHuo_T_FB_sp>
+		<ZhuanHuo_T_ShZ_sp VoiceText="近战转火扇子">近战转火扇子</ZhuanHuo_T_ShZ_sp>
+		<ZhuanHuo_T_BY_sp2 VoiceText="远程转火白云">远程转火白云</ZhuanHuo_T_BY_sp2>
+		<ZhuanHuo_T_XJ_sp2 VoiceText="远程转火小剑">远程转火小剑</ZhuanHuo_T_XJ_sp2>
+		<ZhuanHuo_T_FT_sp2 VoiceText="远程转火斧头">远程转火斧头</ZhuanHuo_T_FT_sp2>
+		<ZhuanHuo_T_GZ_sp2 VoiceText="远程转火钩子">远程转火钩子</ZhuanHuo_T_GZ_sp2>
+		<ZhuanHuo_T_HG_sp2 VoiceText="远程转火红鼓">远程转火红鼓</ZhuanHuo_T_HG_sp2>
+		<ZhuanHuo_T_JD_sp2 VoiceText="远程转火剪刀">远程转火剪刀</ZhuanHuo_T_JD_sp2>
+		<ZhuanHuo_T_BCh_sp2 VoiceText="远程转火棒槌">远程转火棒槌</ZhuanHuo_T_BCh_sp2>
+		<ZhuanHuo_T_RY_sp2 VoiceText="远程转火如意">远程转火如意</ZhuanHuo_T_RY_sp2>
+		<ZhuanHuo_T_FB_sp2 VoiceText="远程转火飞镖">远程转火飞镖</ZhuanHuo_T_FB_sp2>
+		<ZhuanHuo_T_ShZ_sp2 VoiceText="远程转火扇子">远程转火扇子</ZhuanHuo_T_ShZ_sp2>
+		<ZhuanHuo_T_BY_sp3 VoiceText="内功转火白云">内功转火白云</ZhuanHuo_T_BY_sp3>
+		<ZhuanHuo_T_XJ_sp3 VoiceText="内功转火小剑">内功转火小剑</ZhuanHuo_T_XJ_sp3>
+		<ZhuanHuo_T_FT_sp3 VoiceText="内功转火斧头">内功转火斧头</ZhuanHuo_T_FT_sp3>
+		<ZhuanHuo_T_GZ_sp3 VoiceText="内功转火钩子">内功转火钩子</ZhuanHuo_T_GZ_sp3>
+		<ZhuanHuo_T_HG_sp3 VoiceText="内功转火红鼓">内功转火红鼓</ZhuanHuo_T_HG_sp3>
+		<ZhuanHuo_T_JD_sp3 VoiceText="内功转火剪刀">内功转火剪刀</ZhuanHuo_T_JD_sp3>
+		<ZhuanHuo_T_BCh_sp3 VoiceText="内功转火棒槌">内功转火棒槌</ZhuanHuo_T_BCh_sp3>
+		<ZhuanHuo_T_RY_sp3 VoiceText="内功转火如意">内功转火如意</ZhuanHuo_T_RY_sp3>
+		<ZhuanHuo_T_FB_sp3 VoiceText="内功转火飞镖">内功转火飞镖</ZhuanHuo_T_FB_sp3>
+		<ZhuanHuo_T_ShZ_sp3 VoiceText="内功转火扇子">内功转火扇子</ZhuanHuo_T_ShZ_sp3>
+		<ZhuanHuo_T_BY_sp4 VoiceText="外功转火白云">外功转火白云</ZhuanHuo_T_BY_sp4>
+		<ZhuanHuo_T_XJ_sp4 VoiceText="外功转火小剑">外功转火小剑</ZhuanHuo_T_XJ_sp4>
+		<ZhuanHuo_T_FT_sp4 VoiceText="外功转火斧头">外功转火斧头</ZhuanHuo_T_FT_sp4>
+		<ZhuanHuo_T_GZ_sp4 VoiceText="外功转火钩子">外功转火钩子</ZhuanHuo_T_GZ_sp4>
+		<ZhuanHuo_T_HG_sp4 VoiceText="外功转火红鼓">外功转火红鼓</ZhuanHuo_T_HG_sp4>
+		<ZhuanHuo_T_JD_sp4 VoiceText="外功转火剪刀">外功转火剪刀</ZhuanHuo_T_JD_sp4>
+		<ZhuanHuo_T_BCh_sp4 VoiceText="外功转火棒槌">外功转火棒槌</ZhuanHuo_T_BCh_sp4>
+		<ZhuanHuo_T_RY_sp4 VoiceText="外功转火如意">外功转火如意</ZhuanHuo_T_RY_sp4>
+		<ZhuanHuo_T_FB_sp4 VoiceText="外功转火飞镖">外功转火飞镖</ZhuanHuo_T_FB_sp4>
+		<ZhuanHuo_T_ShZ_sp4 VoiceText="外功转火扇子">外功转火扇子</ZhuanHuo_T_ShZ_sp4>
+		<ZhiLiao_BY VoiceText="治疗奶白云">治疗奶白云</ZhiLiao_BY>
+		<ZhiLiao_XJ VoiceText="治疗奶小剑">治疗奶小剑</ZhiLiao_XJ>
+		<ZhiLiao_FT VoiceText="治疗奶斧头">治疗奶斧头</ZhiLiao_FT>
+		<ZhiLiao_GZ VoiceText="治疗奶钩子">治疗奶钩子</ZhiLiao_GZ>
+		<ZhiLiao_HG VoiceText="治疗奶红鼓">治疗奶红鼓</ZhiLiao_HG>
+		<ZhiLiao_JD VoiceText="治疗奶剪刀">治疗奶剪刀</ZhiLiao_JD>
+		<ZhiLiao_BCh VoiceText="治疗奶棒槌">治疗奶棒槌</ZhiLiao_BCh>
+		<ZhiLiao_RY VoiceText="治疗奶如意">治疗奶如意</ZhiLiao_RY>
+		<ZhiLiao_FB VoiceText="治疗奶飞镖">治疗奶飞镖</ZhiLiao_FB>
+		<ZhiLiao_ShZ VoiceText="治疗奶扇子">治疗奶扇子</ZhiLiao_ShZ>
+	</转火>
+	<范围技能处理>范围技能处理
+		<DuoMianXiang_P VoiceText="准备躲面向">准备躲面向</DuoMianXiang_P>
+		<LianXuMianXiang_P VoiceText="准备连续面向">准备连续面向</LianXuMianXiang_P>
+		<JinMianXiang_P VoiceText="准备进面向">准备进面向</JinMianXiang_P>
+		<DuoJuXing_P VoiceText="准备躲矩形">准备躲矩形</DuoJuXing_P>
+		<DuoQuan_P VoiceText="准备躲圈">准备躲圈</DuoQuan_P>
+		<LianXuDuoQuan_P VoiceText="准备连续躲圈">准备连续躲圈</LianXuDuoQuan_P>
+		<JinQuan_P VoiceText="准备进圈">准备进圈</JinQuan_P>
+		<DuoXian_P VoiceText="准备躲线">准备躲线</DuoXian_P>
+		<DangXian_P VoiceText="准备挡线">准备挡线</DangXian_P>
+		<TiaoHuan_P VoiceText="准备跳环">准备跳环</TiaoHuan_P>
+		<TiaoSheng_P VoiceText="准备跳绳">准备跳绳</TiaoSheng_P>
+		<DuoMianXiang_T VoiceText="面向快躲">面向快躲</DuoMianXiang_T>
+		<LianXuMianXiang_T VoiceText="躲面向不要停">躲面向不要停</LianXuMianXiang_T>
+		<JinMianXiang_T VoiceText="快进面向">快进面向</JinMianXiang_T>
+		<DuoJuXing_T VoiceText="矩形快躲">矩形快躲</DuoJuXing_T>
+		<DuoQuan_T VoiceText="快躲圈">快躲圈</DuoQuan_T>
+		<LianXuDuoQuan_T VoiceText="躲圈躲圈躲圈">躲圈躲圈躲圈</LianXuDuoQuan_T>
+		<JinQuan_T VoiceText="快进圈">快进圈</JinQuan_T>
+		<DuoXian_T VoiceText="连线快躲">连线快躲</DuoXian_T>
+		<DangXian_T VoiceText="快挡线">快挡线</DangXian_T>
+		<TiaoHuan_T VoiceText="开始跳环">开始跳环</TiaoHuan_T>
+		<TiaoSheng_T VoiceText="开始跳绳">开始跳绳</TiaoSheng_T>
+	</范围技能处理>
+	<小轻功>小轻功
+		<FuYao_P VoiceText="准备扶摇">准备扶摇</FuYao_P>
+		<ErDuanTiao_P VoiceText="准备二段跳">准备二段跳</ErDuanTiao_P>
+		<HouTiao_P VoiceText="准备后跳">准备后跳</HouTiao_P>
+		<NieYun_P VoiceText="准备蹑云">准备蹑云</NieYun_P>
+		<FuYao_T VoiceText="扶摇起跳">扶摇起跳</FuYao_T>
+		<FuYao_T_sp VoiceText="扶摇起跳并滞空">扶摇起跳并滞空</FuYao_T_sp>
+		<FuYao_T_s VoiceText="点名扶摇跳">点名扶摇跳</FuYao_T_s>
+		<ErDuanTiao_T VoiceText="开始二段跳">开始二段跳</ErDuanTiao_T>
+		<ErDuanTiao_T_s VoiceText="点名二段跳">点名二段跳</ErDuanTiao_T_s>
+		<HouTiao_T VoiceText="开始后跳">开始后跳</HouTiao_T>
+		<HouTiao_T_s VoiceText="点名快后跳">点名快后跳</HouTiao_T_s>
+		<NieYun_T VoiceText="蹑云快跑">蹑云快跑</NieYun_T>
+	</小轻功>
+	<魔盒>魔盒
+		<jx3box_1 VoiceText="剑三欢迎你">剑三欢迎你</jx3box_1>
+		<jx3box_2 VoiceText="魔盒真好用">魔盒真好用</jx3box_2>
+		<jx3box_3 VoiceText="倒数：5、4、3、2、1！">倒数：5、4、3、2、1！</jx3box_3>
+		<jx3box_4 VoiceText="快脱战！快跑！">脱战</jx3box_4>
+		<jx3box_5 VoiceText="快自绝经脉">自绝经脉</jx3box_5>
+		<jx3box_6 VoiceText="666666">666666</jx3box_6>
+		<jx3box_7 VoiceText="宝贝快开门！我知道你在家！">宝贝快开门！我知道你在家！</jx3box_7>
+		<jx3box_8 VoiceText="下把一定">下把一定</jx3box_8>
+	</魔盒>
+</audioMenu>
