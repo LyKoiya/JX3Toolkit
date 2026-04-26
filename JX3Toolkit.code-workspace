@@ -4,5 +4,38 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		// ==================== 基础编码规范 ====================
+		"editor.tabSize": 4,                // 制表符为4个空格（剑网3相关项目通用规范）
+		"editor.insertSpaces": true,        // 用空格替代Tab
+		"files.eol": "\n",                  // 统一换行符为LF
+		"files.autoSave": "afterDelay",     // 自动保存文件
+		"files.autoSaveDelay": 1000,        // 延迟1秒自动保存
+
+		// ==================== 搜索时忽略的文件 ====================
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/dist": true,
+			"**/build": true
+		},
+
+		// ==================== 代码格式化（保存自动格式化） ====================
+		"editor.formatOnSave": true,        // 保存时自动格式化代码
+		"editor.formatOnPaste": true,       // 粘贴代码自动格式化
+		"prettier.requireConfig": false,    // 无需Prettier配置文件也能格式化
+
+		// ==================== 语言专属配置 ====================
+		"[json]": {
+			"editor.defaultFormatter": "vscode.json-language-features"
+		},
+		"[javascript]": {
+			"editor.defaultFormatter": "vscode.typescript-language-features"
+		},
+		"[typescript]": {
+			"editor.defaultFormatter": "vscode.typescript-language-features"
+		},
+
+		"github-actions.enabled": false,
+		"github-actions.workflows.validation.enabled": false
+	}
 }
