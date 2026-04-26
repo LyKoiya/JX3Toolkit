@@ -1,5 +1,9 @@
 name: 创建干净且完整的发行包
 
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: false
+
 on:
   push:
     tags: # 当推送以 'v' 开头的标签时，自动触发

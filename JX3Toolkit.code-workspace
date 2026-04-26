@@ -35,6 +35,8 @@
 			"editor.defaultFormatter": "vscode.typescript-language-features"
 		},
 
+		"git.pushFollowTags": true,
+
 		"github-actions.enabled": false,
 		"github-actions.workflows.validation.enabled": false
 	}
