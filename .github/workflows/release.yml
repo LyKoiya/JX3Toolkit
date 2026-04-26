@@ -32,7 +32,7 @@ jobs:
         uses: thedoctor0/zip-release@0.7.5
         with:
           type: "zip"
-          filename: "release.zip" # 生成的压缩包名称
+          filename: "JX3Toolkit.zip" # 生成的压缩包名称
           # [关键] 排除列表：写上所有你不想要的东西
           exclusions: |
             *.git*
