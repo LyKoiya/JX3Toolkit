@@ -1,0 +1,45 @@
+name: 创建干净且完整的发行包
+
+on:
+  push:
+    tags:          # 当推送以 'v' 开头的标签时，自动触发
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出代码（包含子模块）
+      - name: 签出代码
+        uses: actions/checkout@v4
+        with:
+          submodules: true  # [关键] 这行确保你的 .gitmodules 引用的模块也被拉取
+
+      # 2. 安装依赖 (如果你使用 Node.js / Python / .NET 等)
+      - name: 安装模块依赖
+        run: |
+          # 如果是 Node.js 项目，取消下一行注释
+          # npm ci
+          
+          # 如果是 Python 项目，取消下一行注释
+          # pip install -r requirements.txt
+
+      # 3. 清理并打包 (核心步骤)
+      - name: 生成纯净压缩包
+        uses: thedoctor0/zip-release@0.7.5
+        with:
+          type: 'zip'
+          filename: 'release.zip'  # 生成的压缩包名称
+          # [关键] 排除列表：写上所有你不想要的东西
+          exclusions: |
+            *.git*
+            *.github*
+            *.vscode*
+            *.code-workspace
+            node_modules/*     # 排除本地依赖，将其视为构建环境文件
+
+      # 4. 将打包好的 zip 上传到 Release 页面
+      - name: 发布到 GitHub Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          files: release.zip
