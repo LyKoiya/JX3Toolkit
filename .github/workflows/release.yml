@@ -40,16 +40,16 @@ jobs:
           filename: "JX3Toolkit-${{ github.ref_name }}.zip" # 生成的压缩包名称
           # [关键] 排除列表：写上所有你不想要的东西
           exclusions: |
-            *.git*
-            *.github*
-            *.vscode*
-            *.code-workspace
-            node_modules/*     # 排除本地依赖，将其视为构建环境文件
+            **/.git
+            **/.git/**
+            **/.github
+            **/.vscode
+            **/*.code-workspace
+            node_modules
             __pycache__
             .gitignore
             .gitmodules
             README.md
-
       # 4. 将打包好的 zip 上传到 Release 页面
       - name: 发布到 GitHub Releases
         uses: softprops/action-gh-release@v2
