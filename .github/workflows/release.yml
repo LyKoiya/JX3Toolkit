@@ -12,13 +12,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. 检出代码（包含子模块）
+      # 检出代码（包含子模块）
       - name: 签出代码
         uses: actions/checkout@v4
         with:
           submodules: true # [关键] 这行确保你的 .gitmodules 引用的模块也被拉取
 
-      # 2. 安装依赖 (如果你使用 Node.js / Python / .NET 等)
+      # 安装依赖 (如果你使用 Node.js / Python / .NET 等)
       - name: 安装模块依赖
         run: |
           # 如果是 Node.js 项目，取消下一行注释
@@ -27,7 +27,7 @@ jobs:
           # 如果是 Python 项目，取消下一行注释
           # pip install -r requirements.txt
 
-      # 3. 清理并打包 (核心步骤)
+      # 清理并打包 (核心步骤)
       - name: 生成纯净压缩包
         uses: thedoctor0/zip-release@0.7.5
         with:
@@ -45,8 +45,15 @@ jobs:
             .gitmodules
             README.md
 
+      # 自动获取版本号
+      - name: 打包并自动添加版本号
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/}
+          zip -r JX3Toolkit-$VERSION.zip ./*
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
       # 4. 将打包好的 zip 上传到 Release 页面
       - name: 发布到 GitHub Releases
         uses: softprops/action-gh-release@v2
         with:
-          files: JX3Toolkit.zip
+          files: JX3Toolkit-${{ env.VERSION }}.zip
