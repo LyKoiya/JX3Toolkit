@@ -23,6 +23,33 @@ jobs:
         with:
           submodules: true # [关键] 这行确保你的 .gitmodules 引用的模块也被拉取
 
+      - name: 删除不需要的文件
+        shell: pwsh
+        run: |
+          # 删除 .code-workspace 文件（无论在哪个子目录）
+          Get-ChildItem -Recurse -Filter "*.code-workspace" | Remove-Item -Force
+
+          # 删除 .gitignore 文件
+          Get-ChildItem -Recurse -Filter ".gitignore" | Remove-Item -Force
+
+          # 删除 .gitmodules 文件
+          if (Test-Path ".gitmodules") { Remove-Item -Force ".gitmodules" }
+
+          # 删除 .git 文件夹（如果有）
+          if (Test-Path ".git") { Remove-Item -Recurse -Force ".git" }
+
+          # 删除 .github 文件夹
+          if (Test-Path ".github") { Remove-Item -Recurse -Force ".github" }
+
+          # 删除 .vscode 文件夹
+          if (Test-Path ".vscode") { Remove-Item -Recurse -Force ".vscode" }
+
+          # 删除 README.md
+          if (Test-Path "README.md") { Remove-Item -Force "README.md" }
+
+          # 删除 __pycache__ 文件夹
+          Get-ChildItem -Recurse -Filter "__pycache__" -Directory | Remove-Item -Recurse -Force
+
       # 安装依赖 (如果你使用 Node.js / Python / .NET 等)
       - name: 安装模块依赖
         run: |
@@ -40,23 +67,15 @@ jobs:
           filename: "JX3Toolkit-${{ github.ref_name }}.zip" # 生成的压缩包名称
           # [关键] 排除列表：写上所有你不想要的东西
           exclusions: |
-            .git
-            .git/**
-            .github
-            .vscode
+            *.git*
+            *.github*
+            *.vscode*
+            *.code-workspace
+            node_modules/*     # 排除本地依赖，将其视为构建环境文件
+            __pycache__
             .gitignore
             .gitmodules
             README.md
-            node_modules
-            __pycache__
-            *.code-workspace
-            */.git
-            */.git/**
-            */.vscode
-            */.github
-            */node_modules
-            */__pycache__
-            */*.code-workspace
 
       # 4. 将打包好的 zip 上传到 Release 页面
       - name: 发布到 GitHub Releases
