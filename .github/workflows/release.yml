@@ -32,14 +32,6 @@ jobs:
           # 如果是 Python 项目，取消下一行注释
           # pip install -r requirements.txt
 
-      # 安装 CRLF 转换工具（修复批处理闪退）
-      - name: 安装 dos2unix 修复 bat 换行符
-        run: sudo apt install dos2unix -y
-
-      # 把所有 .bat 转换成 Windows CRLF 格式（关键！）
-      - name: 修复批处理文件换行符
-        run: find . -name "*.bat" -exec dos2unix {} \;
-
       # 清理并打包
       - name: 生成纯净压缩包
         uses: thedoctor0/zip-release@0.7.5
