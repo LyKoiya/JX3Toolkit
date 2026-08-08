@@ -25,6 +25,23 @@
 		"prettier.requireConfig": false,    // 无需Prettier配置文件也能格式化
 
 		// ==================== 语言专属配置 ====================
+		// 默认打开格式
+		"files.encoding": "gbk",
+		// 调整编码格式
+		"encoding-guard.patternMap": {
+		// 支持glob匹配模式
+			"**/*zhtw*.jx3dat": "utf8",
+			"**/*zhcn*.jx3dat": "gbk",
+			"**/*.formatted.jx3dat": "gbk",
+			"**/*zhtw*.lua": "utf8",
+			"**/*zhtw*.txt": "utf8",
+			"**/*.ini.zh_TW": "utf8",
+			"**/*.ini": "gbk",
+			"**/.github/workflows/auto-release.yml": "utf8",
+			"**/.github/workflows/publish.yml": "utf8",
+			"**/*.yml": "gb18030",
+			"**/*.txt": "gbk",
+		},
 		"[json]": {
 			"editor.defaultFormatter": "vscode.json-language-features"
 		},
@@ -34,9 +51,7 @@
 		"[typescript]": {
 			"editor.defaultFormatter": "vscode.typescript-language-features"
 		},
-
 		"git.pushFollowTags": true,
-
 		"github-actions.enabled": false,
 		"github-actions.workflows.validation.enabled": false
 	}
